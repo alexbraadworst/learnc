@@ -73,7 +73,7 @@ int addition(int a, int b){
 */
 
 
-int pizza(){
+void pizza(){
     int order;
     char arr[5][15] = {"1. Hamburger", "2. Cheeseburger", "3. Fries", "4. Nuggets", "5. Soda"};
     char items[5][15] = {};
@@ -138,8 +138,6 @@ int pizza(){
                 break;
             }
     }
-
-    return 0;
 }
 
 

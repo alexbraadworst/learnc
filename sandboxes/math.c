@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include <math.h>
 
+double cube(double num){
+    double result = num * num * num;
+    return result;
+}
+
+
 int main(){
     double A = sqrt(9); // self-explanatory
     double B = pow(2, 4); // first number is the base number, second is the exponent
@@ -14,4 +20,6 @@ int main(){
     double J = tan(45); // self-explanatory
 
     printf("%lf\n", J);
+    printf("Cube of 9 is %f\n", cube(9));
 }
+
