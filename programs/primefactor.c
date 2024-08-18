@@ -25,4 +25,10 @@ int main(){
             n = n / i;
         }
     }
+
+    // for prime numbers above 2
+
+    if (n > 2)
+        printf("%d\n", n);
+
 }
